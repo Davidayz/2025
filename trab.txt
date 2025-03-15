@@ -1,0 +1,67 @@
+1. Quais das sentenças a seguir tem o mesmo sentido lógico que a                                                                 E= equivalente
+sentença: ”Um resultado bom  ́e uma condição necessária para um
+trabalho bem feito.”
+------------------------------------------------------------------
+a Se o trabalho foi bem feito, então o resultado será bom.
+A=Trabalho bem feito
+B= resultado bom
+A🠖B                                                              E
+------------------------------------------------------------------
+b Se o resultado não está bom, então o trabalho não foi bem feito.
+A=trabalho não está bom
+B=trabalho mal feito
+~B🠖~A                                                            E
+------------------------------------------------------------------
+c O resultado não está bom ou o trabalho foi bem feito.
+A=O resultado não está bom
+B=o trabalho foi bem feito
+~B∨A
+------------------------------------------------------------------
+d O trabalho não está bem feito ou o resultado está bom.
+A=O trabalho não está bem feito
+B=o resultado está bom
+~A∨B                                                             E
+------------------------------------------------------------------
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\|||||//////////////////////////////
+///////////////////////////////|||||\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+2. Quais das sentenças a seguir tem o mesmo sentido lógico que a
+sentença: ”Uma condição suficiente para que Maria ganhe um brinde é
+realizar uma compra.”
+------------------------------------------------------------------
+a Maria realizou uma compra e não ganhou um brinde.
+A=Maria realizou uma compra
+B=não ganhou um brinde.
+A∧~B
+------------------------------------------------------------------
+b Maria não realizou uma compra ou ganhou um brinde.
+A=Maria não realizou uma compra
+B=ganhou um brinde.
+~A∨B                                                             E
+------------------------------------------------------------------
+c Se Maria não realizar uma compra, então ela não ganhou um brinde.
+A=Maria não realizar uma compra
+B=ela não ganhou um brinde
+~A🠖~B
+------------------------------------------------------------------
+d Se Maria não ganhar um brinde, então ela não realizou uma compra.
+A=ela não realizou uma compra
+B=Maria não ganhar um brinde
+~B🠖~A                                                            E
+------------------------------------------------------------------
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\|||||//////////////////////////////
+///////////////////////////////|||||\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+3. Quais das sentenças a seguir tem o mesmo sentido lógico que a
+sentença: ”Não é verdade que: Se o jogador jogar bem, então o time
+vence o campeonato.”
+~(A🠖B)
+------------------------------------------------------------------
+a Se o time vencer, então o jogador não jogou bem.
+------------------------------------------------------------------
+b O jogador jogou bem e não venceu o campeonato.
+------------------------------------------------------------------
+c Se o time não vencer então o jogador não jogou bem.
+------------------------------------------------------------------
+d O time venceu ou o jogador não jogou bem.
+------------------------------------------------------------------
