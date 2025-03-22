@@ -1,0 +1,50 @@
+4.
+A = meu pai fez o café
+B = O café está doce
+     f f
+(a)  A→B  (V)
+(b)  (~B) (V)
+
+~A é V, ou seja, o meu pai não fez o café
+
+5.
+A = meu pai fez o café, então o café está muito doce
+B = meu pai não fez o café
+     f f ou v
+(a)  A→B  (V)
+(b)  ~A  (V)
+
+não podemos dizer que o café não está doce
+
+6.
+A = meu pai fez o café, então o café está muito doce
+B = O meu pai fez o café
+     v v
+(a)  A→B  (V)
+(b)  A    (V)
+
+B é V, ou seja, podemos concluir que o café está muito doce
+
+P            Q
+-----        -
+A˄A→B infere B
+
+~B˄ A→B infere ~A
+P       Q
+------  -
+A˄(A→B)→B
+
+~B˄(A→B)→~A
+
+
+A|B|A→B|A˄(A→B)|A˄(A→B)→B|
+V|V| V |   V   |     V   |
+V|F| F |   F   |     V   |
+F|V| V |   F   |     V   |
+F|F| V |   F   |     V   |
+
+A|B|~A|~B|A→B|~B˄(A→B)|~B˄(A→B)→~A|
+V|V|F |F | V |    F   |     V     |
+V|F|F |V | F |    F   |     V     |
+F|V|V |F | V |    F   |     V     |
+F|F|V |V | V |    V   |     V     |
